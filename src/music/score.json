@@ -1,0 +1,311 @@
+{
+ "dur": 66.0,
+ "sr": 48000,
+ "peak": 0.89,
+ "ma_silent_30_36_to_32_0": true,
+ "cues": [
+  {
+   "cue": "C1 printing",
+   "t0": 0,
+   "t1": 2.9,
+   "rms_db": -32.20000076293945,
+   "peak": 0.511
+  },
+  {
+   "cue": "C2 jo",
+   "t0": 2.9,
+   "t1": 9.5,
+   "rms_db": -19.200000762939453,
+   "peak": 0.642
+  },
+  {
+   "cue": "C3 gear",
+   "t0": 9.5,
+   "t1": 16.2,
+   "rms_db": -25.700000762939453,
+   "peak": 0.502
+  },
+  {
+   "cue": "C4 meal",
+   "t0": 16.2,
+   "t1": 23.2,
+   "rms_db": -36.599998474121094,
+   "peak": 0.345
+  },
+  {
+   "cue": "C5 climb",
+   "t0": 23.2,
+   "t1": 30.3,
+   "rms_db": -20.200000762939453,
+   "peak": 0.634
+  },
+  {
+   "cue": "C6 ma",
+   "t0": 30.3,
+   "t1": 32.0,
+   "rms_db": -44.599998474121094,
+   "peak": 0.171
+  },
+  {
+   "cue": "C7 turn",
+   "t0": 32.0,
+   "t1": 36.8,
+   "rms_db": -18.0,
+   "peak": 0.89
+  },
+  {
+   "cue": "C8 snow",
+   "t0": 36.8,
+   "t1": 44.0,
+   "rms_db": -32.5,
+   "peak": 0.14
+  },
+  {
+   "cue": "C9 ice",
+   "t0": 44.8,
+   "t1": 50.6,
+   "rms_db": -32.20000076293945,
+   "peak": 0.322
+  },
+  {
+   "cue": "C10 discovery",
+   "t0": 51.4,
+   "t1": 63.8,
+   "rms_db": -23.399999618530273,
+   "peak": 0.402
+  },
+  {
+   "cue": "C11 coda",
+   "t0": 63.8,
+   "t1": 66.0,
+   "rms_db": -20.399999618530273,
+   "peak": 0.624
+  }
+ ],
+ "voice_windows": [
+  {
+   "line": "L1",
+   "rms_db": -19.200000762939453
+  },
+  {
+   "line": "L2",
+   "rms_db": -26.299999237060547
+  },
+  {
+   "line": "L3",
+   "rms_db": -38.5
+  },
+  {
+   "line": "L4",
+   "rms_db": -22.399999618530273
+  },
+  {
+   "line": "L5",
+   "rms_db": -17.100000381469727
+  },
+  {
+   "line": "L6",
+   "rms_db": -31.200000762939453
+  },
+  {
+   "line": "L7",
+   "rms_db": -31.899999618530273
+  },
+  {
+   "line": "L8",
+   "rms_db": -21.399999618530273
+  },
+  {
+   "line": "L9",
+   "rms_db": -25.299999237060547
+  }
+ ],
+ "events": [
+  [
+   0.35,
+   "hyoshigi",
+   "hyoshigi (block 1)"
+  ],
+  [
+   2.9,
+   "shamisen",
+   "title: shamisen chord"
+  ],
+  [
+   3.05,
+   "shakuhachi",
+   "motif: A4 slid in"
+  ],
+  [
+   3.4,
+   "shamisen",
+   "title seal: shamisen chin"
+  ],
+  [
+   6.35,
+   "shakuhachi",
+   "low ro under L1"
+  ],
+  [
+   10.0,
+   "shamisen",
+   "shamisen pulse 72 BPM"
+  ],
+  [
+   11.667,
+   "taiko",
+   "kotsuzumi-soft shime"
+  ],
+  [
+   14.5,
+   "shakuhachi",
+   "shakuhachi answer"
+  ],
+  [
+   15.2,
+   "shamisen",
+   "cartouche seal: chin"
+  ],
+  [
+   22.45,
+   "shamisen",
+   "rising figure into the climb"
+  ],
+  [
+   24.6,
+   "taiko",
+   "heartbeat starts, accelerating"
+  ],
+  [
+   27.4,
+   "other",
+   "low swell into the pass"
+  ],
+  [
+   26.5,
+   "shamisen",
+   "wind gust: high Bb"
+  ],
+  [
+   32.0,
+   "taiko",
+   "arrow: single deep hit"
+  ],
+  [
+   32.9,
+   "taiko",
+   "fall: heavy hit"
+  ],
+  [
+   33.4,
+   "shakuhachi",
+   "meri drop: the turn"
+  ],
+  [
+   33.2,
+   "other",
+   "cold settles: falling drone"
+  ],
+  [
+   35.2,
+   "shakuhachi",
+   "lands on the tonic D"
+  ],
+  [
+   35.05,
+   "shamisen",
+   "cartouche: shamisen harmonic"
+  ],
+  [
+   36.2,
+   "shamisen",
+   "soft chord into the snow"
+  ],
+  [
+   37.2,
+   "shamisen",
+   "snow begins: faint harmonic"
+  ],
+  [
+   40.2,
+   "shamisen",
+   "the erase starts"
+  ],
+  [
+   41.6,
+   "shakuhachi",
+   "breath-only phrase under the last snow"
+  ],
+  [
+   45.0,
+   "koto",
+   "glacier: koto slow ascent"
+  ],
+  [
+   45.0,
+   "taiko",
+   "low taiko pulse"
+  ],
+  [
+   47.0,
+   "taiko",
+   "low taiko pulse"
+  ],
+  [
+   49.0,
+   "taiko",
+   "low taiko pulse"
+  ],
+  [
+   49.6,
+   "shamisen",
+   "cartouche seal: chin"
+  ],
+  [
+   51.6,
+   "shamisen",
+   "discovery: restatement"
+  ],
+  [
+   52.0,
+   "shakuhachi",
+   "motif returns: A4"
+  ],
+  [
+   55.0,
+   "shamisen",
+   "cartouche seal: chin"
+  ],
+  [
+   56.0,
+   "shamisen",
+   "slow pulse 60 BPM"
+  ],
+  [
+   58.0,
+   "shakuhachi",
+   "under L9: G4"
+  ],
+  [
+   60.0,
+   "shamisen",
+   "L9: wide chord"
+  ],
+  [
+   63.9,
+   "shakuhachi",
+   "final long note"
+  ],
+  [
+   64.0,
+   "shamisen",
+   "last note, long sawari ring"
+  ],
+  [
+   64.2,
+   "hyoshigi",
+   "closing clappers with the seal"
+  ]
+ ],
+ "notes": "miyako-bushi scale D Eb G A Bb; motif A4-Bb4-A4 (meri) stated at the title, restated at the discovery; ma 30.3-32.0 hard silence; koto glissando under the glacier; coda ends on D with hyoshigi at the seal."
+}

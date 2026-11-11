@@ -1,0 +1,26 @@
+The Man the Glacier Kept — an original ukiyo-e short made with the Lemo-Opuscar toolkit
+========================================================================================
+
+Story, pictures, music and narration script are original works for this film.
+Historical facts follow the South Tyrol Museum of Archaeology (Ötzi pages) and
+Maixner et al., "Inferences from Stable Isotope Analysis..." / last-meal study,
+Current Biology 28 (2018).
+
+Engine
+- Lemo-Opuscar core tools (rendering, print engine print.js / nature.js, tts, sampler, pluck, sfx, mux): MIT License, Copyright (c) 2026 LemoLab — https://github.com/lemomo-ai/lemo-opuscar
+  print.js and nature.js are used unmodified; all other page code (story.js, figure.js, views.js, main.js) is original for this film.
+
+Fonts (in fonts/)
+- Shippori Mincho (500, 700) and Shippori Mincho (kanji subset) — SIL Open Font License 1.1, Fontworks Inc.
+- Yuji Syuku — SIL Open Font License 1.1, Yuji Kataoka / Fontworks Inc.
+
+Narration
+- Kokoro TTS v1.0 (kokoro-v1.0.onnx), voice am_michael — Apache-2.0, hexgrad.
+- Line-by-line verification: whisper base.en (OpenAI, MIT) via faster-whisper.
+
+Sound samples (via core/audio/sampler.py)
+- VCSL (Versilian Community Sample Library) — CC0 1.0.
+- Karoryfer Samples instruments (recorder, flute, woodblock, world percussion) — CC0 1.0.
+- Shamisen, koto, taiko and hyōshigi sounds are physically modelled / synthesised (core/audio/pluck.py + score.py); no taiko sample exists under CC0, the taiko is layered gran_cassa + toms + frame_drum + a synthesised drum head.
+
+All audio is mixed offline with numpy/scipy; loudness conformed at mux (−14 LUFS).
