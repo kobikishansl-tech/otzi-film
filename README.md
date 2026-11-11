@@ -8,7 +8,7 @@ Original history documentary shorts made with the [Lemo-Opuscar](https://github.
 
 Nine student hikers died on a mountain pass in the northern Urals in February 1959; the case file was closed with a phrase about "a compelling natural force." Told in 15 scenes of Chinese red paper-cut animation — the chain of nine, the last photograph, the tent cut from inside, the cedar, the ravine, and the 2021 slab-avalanche model that finally explained it.
 
-- **Film:** too large for git (138 MB) — download from the [Releases page](../../releases) (`dyatlov.mp4`, 1920×1080, 24 fps, −14.4 LUFS)
+- **Film:** 138 MB, too large for git as one file — download the parts from [film/dyatlov-mp4-parts/](film/dyatlov-mp4-parts/) and rejoin: `sh join.sh` (1920×1080, 24 fps, −14.4 LUFS)
 - **Poster:** [film/dyatlov-poster.jpg](film/dyatlov-poster.jpg)
 - **Subtitles:** [film/dyatlov.srt](film/dyatlov.srt)
 - **Source:** [films/dyatlov/](films/dyatlov/) — treatment, script, and full rebuild pipeline
