@@ -22,6 +22,16 @@ Eight views of one alpine pass (峠八景): the autumn walk, Ötzi's gear, his l
 - **Subtitles:** [film/otzi.srt](film/otzi.srt)
 - **Source:** [films/otzi/](films/otzi/)
 
+## Style Samples — *one story, three styles* (30 s each)
+
+Three 30-second samples of the same black-hole story ("Falling Into a Black Hole"), one per Lemo-Opuscar style — plus an Ötzi archaeology plate in the engraving style:
+
+- **Whiteboard** — [film](films/sample-whiteboard/sample-whiteboard.mp4) · [subtitles](films/sample-whiteboard/sample-whiteboard.srt) · [source](films/sample-whiteboard/) — stickman drawn line by line on a whiteboard (hand-lettered, foley, score)
+- **Pictogram Motion** — [film](films/sample-pictogram/sample-pictogram.mp4) · [subtitles](films/sample-pictogram/sample-pictogram.srt) · [source](films/sample-pictogram/) — flat pictogram shapes on colour discs, shot-based with wipe transitions
+- **Copperplate Engraving** — [film](films/sample-engraving/sample-engraving.mp4) · [subtitles](films/sample-engraving/sample-engraving.srt) · [source](films/sample-engraving/) — "The Iceman, Plate I": Ötzi engraved burin-stroke by burin-stroke, with magnified detail roundels and hand-coloured washes (31 s)
+
+All three: 1920×1080, 24 fps, −14 LUFS.
+
 ## Rebuild
 
 Inside a Lemo-Opuscar checkout, copy a film's folder to `films/<name>/` and run:
