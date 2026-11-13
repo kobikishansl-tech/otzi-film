@@ -32,6 +32,14 @@ Three 30-second samples of the same black-hole story ("Falling Into a Black Hole
 
 All three: 1920×1080, 24 fps, −14 LUFS.
 
+### Black Hole Journey — *pictogram motion explainer* (4:18)
+
+What it would actually be like to fall into a black hole: the bend in the sky, the accretion disk, spaghettification, the event horizon, the frozen outside view, the singularity, and the slow leak of Hawking radiation. Twenty shots in six chapters — the long form of the pictogram style sample above.
+
+- **Film:** [films/bh-journey/bh-journey.mp4](films/bh-journey/bh-journey.mp4) — 1920×1080, 24 fps, −14.2 LUFS
+- **Subtitles:** [films/bh-journey/bh-journey.srt](films/bh-journey/bh-journey.srt)
+- **Source:** [films/bh-journey/](films/bh-journey/)
+
 ## Rebuild
 
 Inside a Lemo-Opuscar checkout, copy a film's folder to `films/<name>/` and run:
