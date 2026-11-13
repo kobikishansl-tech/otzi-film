@@ -1,0 +1,7 @@
+[
+ { "id": "v01", "text": "This is you, standing on the Earth, minding your own business.", "voice": "bm_george", "speed": 1.0, "lang": "en-gb" },
+ { "id": "v02", "text": "Here is what happens if you fall into a black hole.", "voice": "bm_george", "speed": 1.0, "lang": "en-gb" },
+ { "id": "v03", "text": "The event horizon is the point of no return. Not even light gets out.", "voice": "bm_george", "speed": 1.0, "lang": "en-gb" },
+ { "id": "v04", "text": "Falling in, gravity stretches you into spaghetti, long before you reach the middle.", "voice": "bm_george", "speed": 1.0, "lang": "en-gb" },
+ { "id": "v05", "text": "But from outside, you never quite arrive. You fade, frozen, forever.", "voice": "bm_george", "speed": 1.0, "lang": "en-gb" }
+]

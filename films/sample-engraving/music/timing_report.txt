@@ -1,0 +1,49 @@
+Timing check (onset = first 30% rise from local trough to local peak in [t-60 ms, t+120 ms], measured on the rendered stem; tol ±0.042 s = 1 frame @24fps)
+
+OK   1.8750s  got  1.8730s  err   -2.0 ms  (rise 157.2 dB)  pickup 1: harpsichord A4
+OK   2.1875s  got  2.1855s  err   -2.0 ms  (rise 34.2 dB)  pickup 2: harpsichord C#5
+OK   2.5000s  got  2.4990s  err   -1.0 ms  (rise 171.6 dB)  bar 2 downbeat: print pulled (tutti D accent)
+OK   5.0000s  got  5.0030s  err   +3.0 ms  (rise 26.3 dB)  bar 3: 2nd violin 16th pizz hatching enters
+OK   6.2500s  got  6.2500s  err   +0.0 ms  (rise 30.3 dB)  harpsichord flourish starts (title engraved)
+OK   7.5000s  got  7.5130s  err  +13.0 ms  (rise 13.1 dB)  bar 4: flourish lands, full texture
+OK   9.3750s  got  9.3800s  err   +5.0 ms  (rise 30.1 dB)  texture thins: cello A pedal + high harpsichord figure
+OK  10.4250s  got 10.4230s  err   -2.0 ms  (rise 82.5 dB)  ring ting #1 (violin pizz A6 + harpsichord A5)
+OK  11.2750s  got 11.2740s  err   -1.0 ms  (rise 35.8 dB)  rising line #1 starts
+OK  12.5875s  got 12.5855s  err   -2.0 ms  (rise 31.0 dB)  rising line #1 top note
+OK  12.7750s  got 12.7970s  err  +22.0 ms  (rise 61.6 dB)  landing #1: low cello + bass pizz D
+OK  15.0000s  got 14.9970s  err   -3.0 ms  (rise 41.3 dB)  harpsichord descending run starts
+OK  16.0938s  got 16.0928s  err   -1.0 ms  (rise  6.9 dB)  run last note A4 (short) -> dead stop by 25.0
+OK  17.5000s  got 17.5116s  err  +11.6 ms  (rise  0.0 dB)  FIRST BOWED NOTE: strings enter pp on D (cellos/violas/violins)
+OK  22.5000s  got 22.5050s  err   +5.0 ms  (rise 42.7 dB)  perfect cadence V-I: tonic D lands (harpsichord roll + bass pizz + bowed D)
+OK  25.0000s  got 24.9990s  err   -1.0 ms  (rise 154.2 dB)  wink: soft violin pizz D6
+OK  26.8750s  got 26.8760s  err   +1.0 ms  (rise 150.3 dB)  end card: soft harpsichord tonic, fade begins
+
+Against the brief cue map (nearest measured accent):
+OK  map  1.8750s  <-  1.8730s  err   -2.0 ms  pickup 1: harpsichord A4
+OK  map  2.1875s  <-  2.1855s  err   -2.0 ms  pickup 2: harpsichord C#5
+OK  map  2.5000s  <-  2.4990s  err   -1.0 ms  bar 2 downbeat: print pulled (tutti D accent)
+OK  map  5.0000s  <-  5.0030s  err   +3.0 ms  bar 3: 2nd violin 16th pizz hatching enters
+OK  map  6.2500s  <-  6.2500s  err   +0.0 ms  harpsichord flourish starts (title engraved)
+OK  map  7.5000s  <-  7.5130s  err  +13.0 ms  bar 4: flourish lands, full texture
+OK  map  9.3750s  <-  9.3800s  err   +5.0 ms  texture thins: cello A pedal + high harpsichord figure
+OK  map 10.4250s  <- 10.4230s  err   -2.0 ms  ring ting #1 (violin pizz A6 + harpsichord A5)
+OK  map 11.2750s  <- 11.2740s  err   -1.0 ms  rising line #1 starts
+OK  map 12.5875s  <- 12.5855s  err   -2.0 ms  rising line #1 top note
+OK  map 12.7750s  <- 12.7970s  err  +22.0 ms  landing #1: low cello + bass pizz D
+OK  map 15.0000s  <- 14.9970s  err   -3.0 ms  harpsichord descending run starts
+OK  map 16.0938s  <- 16.0928s  err   -1.0 ms  run last note A4 (short) -> dead stop by 25.0
+OK  map 17.5000s  <- 17.5116s  err  +11.6 ms  FIRST BOWED NOTE: strings enter pp on D (cellos/violas/violins)
+OK  map 22.5000s  <- 22.5050s  err   +5.0 ms  perfect cadence V-I: tonic D lands (harpsichord roll + bass pizz + bowed D)
+OK  map 25.0000s  <- 24.9990s  err   -1.0 ms  wink: soft violin pizz D6
+OK  map 26.8750s  <- 26.8760s  err   +1.0 ms  end card: soft harpsichord tonic, fade begins
+
+Silence 0.0–1.87 s: peak -240.0 dBFS
+Silence 16.25–17.50 s: peak -240.0 dBFS
+Pickup ring 2.0–2.18 s: peak -31.7 dBFS; 2.3–2.49 s: peak -28.8 dBFS
+Tail 30.2–31.2 s: peak -240.0 dBFS
+Bowed stem silent before 26.25: peak -159.9 dBFS; first bowed sample above -100 dB at 17.5116 s
+Bowed stem reaches -50 dBFS at 17.6648 s, -40 dBFS at 17.7668 s
+Per-bar RMS (dBFS): b1:-35 b2:-20 b3:-21 b4:-19 b5:-21 b6:-23 b7:-24 b8:-27 b9:-20 b10:-19 b11:-21 b12:-36
+Mix: 31.250 s, 2 ch, 48000 Hz, peak -1.20 dBFS, integrated -18.0 LUFS
+
+ALL CUES WITHIN TOLERANCE

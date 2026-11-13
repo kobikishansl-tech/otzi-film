@@ -1,0 +1,26 @@
+[
+ {
+  "id": "title",
+  "text": "Plate one. The Iceman: Homo tyrolensis.",
+  "voice": "bm_fable",
+  "speed": 0.92,
+  "lang": "en-gb",
+  "asr": "Plate one the Iceman homo tyrolensis"
+ },
+ {
+  "id": "d1",
+  "text": "His copper axe was a mark of rank, five thousand years old.",
+  "voice": "bm_fable",
+  "speed": 0.92,
+  "lang": "en-gb",
+  "asr": "His copper axe was a mark of rank 5000 years old"
+ },
+ {
+  "id": "close",
+  "text": "The ice kept him for five thousand three hundred years.",
+  "voice": "bm_fable",
+  "speed": 0.92,
+  "lang": "en-gb",
+  "asr": "The ice kept him for 5300 years"
+ }
+]

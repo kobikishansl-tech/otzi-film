@@ -1,0 +1,60 @@
+{
+  "plate_no": "Pl. I",
+  "series": "Ancient Lives · The Man in the Ice",
+  "title": "The Iceman",
+  "latin": "Homo tyrolensis",
+  "subject": "iceman",
+  "details": [
+    {
+      "name": "Copper Axe",
+      "latin": "securis cupri",
+      "note": "A copper blade on a yew haft — his mark of rank.",
+      "focus": "axe"
+    }
+  ],
+  "colors": [
+    { "region": "coat", "color": "#8a6a4a" },
+    { "region": "legs", "color": "#7a5a40" },
+    { "region": "boots", "color": "#5f4632" },
+    { "region": "head", "color": "#c9a07a" },
+    { "region": "beard", "color": "#3a2c20" },
+    { "region": "axe", "color": "#4e8a7a" },
+    { "region": "bow", "color": "#a87c3f" }
+  ],
+  "caption": "See the man in the ice, Gallery 1",
+  "signature": {
+    "left": "Lemo del.",
+    "right": "Opus sculp."
+  },
+  "voice": {
+    "voice": "bm_fable",
+    "speed": 0.92,
+    "lines": [
+      {
+        "id": "title",
+        "text": "Plate one. The Iceman: Homo tyrolensis.",
+        "asr": "Plate one the Iceman homo tyrolensis"
+      },
+      {
+        "id": "d1",
+        "text": "His copper axe was a mark of rank, five thousand years old.",
+        "asr": "His copper axe was a mark of rank 5000 years old"
+      },
+      {
+        "id": "close",
+        "text": "The ice kept him for five thousand three hundred years.",
+        "asr": "The ice kept him for 5300 years"
+      }
+    ]
+  },
+  "end": {
+    "film_title": "The Iceman, Plate I",
+    "style_name": "Copperplate Engraving",
+    "credits": [
+      "Voice · Kokoro TTS (Apache-2.0)",
+      "Type · Bodoni Moda · Pinyon Script",
+      "Score & sound · written in code"
+    ]
+  },
+  "nat_size_label": "Natural size"
+}
